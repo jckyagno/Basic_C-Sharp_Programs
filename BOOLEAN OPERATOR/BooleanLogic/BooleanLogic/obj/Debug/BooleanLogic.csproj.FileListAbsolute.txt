@@ -1,0 +1,7 @@
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.exe.config
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.exe
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\bin\Debug\BooleanLogic.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.exe
+D:\Visual Studio Projects\Basic_C-_Programs\BOOLEAN OPERATOR\BooleanLogic\BooleanLogic\obj\Debug\BooleanLogic.pdb
