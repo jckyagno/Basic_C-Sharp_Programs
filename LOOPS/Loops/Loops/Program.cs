@@ -67,33 +67,33 @@ namespace Loops
         }
 
 
-        //Console.WriteLine("Best pizza topping?");
-        ////stores input as topping
-        //string topping = Console.ReadLine();
-        ////isGuessed2 false unless topping changed to pineapple
-        //bool isGuessed2 = topping == "pineapple";
+        Console.WriteLine("Best pizza topping?");
+        //stores input as topping
+        string topping = Console.ReadLine();
+        //isGuessed2 false unless topping changed to pineapple
+        bool isGuessed2 = topping == "pineapple";
 
-        ////do while loop
-        //do
-        //{
-        //    switch (topping)
-        //    {
-        //        //correct solution
-        //        case "pineapple":
-        //            Console.WriteLine("You guessed pineapple. That is correct!");
-        //            //changes isGuessed2 to true, continuing on from loop
-        //            isGuessed2 = true;
-        //            break;
-        //        //default solution if not guessed pineapple
-        //        default:
-        //            Console.WriteLine("You guessed " + topping + ". You are wrong.\nBest pizza topping?");
-        //            topping = Console.ReadLine();
-        //            break;
-        //    }
-        //}
-        //while (!isGuessed2);
+        //do while loop
+        do
+        {
+            switch (topping)
+            {
+                //correct solution
+                case "pineapple":
+                    Console.WriteLine("You guessed pineapple. That is correct!");
+                    //changes isGuessed2 to true, continuing on from loop
+                    isGuessed2 = true;
+                    break;
+                //default solution if not guessed pineapple
+                default:
+                    Console.WriteLine("You guessed " + topping + ". You are wrong.\nBest pizza topping?");
+                    topping = Console.ReadLine();
+                    break;
+            }
+}
+while (!isGuessed2) ;
 
-        //Console.ReadLine();
+Console.ReadLine();
     }
 
 }
