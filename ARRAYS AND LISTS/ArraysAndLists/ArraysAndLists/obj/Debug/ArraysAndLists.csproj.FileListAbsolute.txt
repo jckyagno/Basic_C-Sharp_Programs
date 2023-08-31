@@ -1,0 +1,7 @@
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\bin\Debug\ArraysAndLists.exe.config
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\bin\Debug\ArraysAndLists.exe
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\bin\Debug\ArraysAndLists.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.exe
+D:\Visual Studio Projects\Basic_C-_Programs\ARRAYS AND LISTS\ArraysAndLists\ArraysAndLists\obj\Debug\ArraysAndLists.pdb
