@@ -1,0 +1,7 @@
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\bin\Debug\Iteration.exe.config
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\bin\Debug\Iteration.exe
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\bin\Debug\Iteration.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\obj\Debug\Iteration.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\obj\Debug\Iteration.exe
+D:\Visual Studio Projects\Basic_C-_Programs\ITERATION\Iteration\Iteration\obj\Debug\Iteration.pdb
