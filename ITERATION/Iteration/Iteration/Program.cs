@@ -122,7 +122,7 @@ class Program
 
         ////4. Then create a second loop that prints off each string in the
         ////array one at a time.
-        
+
         ////second loop  to print off each index to console
         //for (int i = 0; i < names.Length; i++)
         //{
@@ -271,20 +271,52 @@ class Program
 
 
 
-        List<int> scores = new List<int>() { 86, 98, 12, 74, 98, 98, 99 };
+        List<string> names = new List<string>() { "Jesse", "Erik", "Daniel", "Jesse" };
+        Console.WriteLine("\nType the name of a person to see if they are on the list:");
+        string userSearch3 = Console.ReadLine();
 
-        Console.WriteLine("\nPlease input a number to search for in the database:");
-        string input = Console.ReadLine();
-        int userSearch2 = Convert.ToInt32(input);
 
-        foreach (int score in scores)
+
+        for (int i = 0; i < names.Count; i++)
         {
-            if (score == userSearch2)
+            if (names[i] == userSearch3)
             {
-                Console.WriteLine("Index: {0}", scores.IndexOf(userSearch2));
+                Console.WriteLine(names[i] + " is at index value of: " + i);
+            }
+            else if (!names.Contains(userSearch3))
+            {
+                Console.WriteLine("Could not find the name in database.");
+                break;
             }
         }
+
         Console.ReadLine();
+        Console.WriteLine("Completion");
+
+
+        //List<int> scores = new List<int>() { 86, 98, 12, 74, 98, 98, 99 };
+
+        //Console.WriteLine("\nPlease input a number to search for in the database:");
+        //string input = Console.ReadLine();
+        //int userSearch2 = Convert.ToInt32(input);
+
+        //foreach (int score in scores)
+        //{
+        //    if (score == userSearch2)
+        //    {
+        //        Console.WriteLine("Index: {0}", scores.IndexOf(userSearch2));
+        //    }
+        //}
+        //Console.ReadLine();
+
+        //for (int i = 0; i < scores.Count; i++);
+        //{
+        //    if (scores[i] == userSearch2)
+        //    {
+        //        Console.WriteLine("Index: {0}", scores.IndexOf(userSearch2));
+        //    }
+        //}
+        //Console.ReadLine();
 
 
 
