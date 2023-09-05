@@ -9,7 +9,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
     class Calculation
     {
         //method overload #1
-        public static int Method(int inputOne)
+        public int Method(int inputOne)
         {
             int numOne = 1;
             int calculationOne = inputOne + numOne;
@@ -17,7 +17,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
         }
 
         //method overload #2
-        public static decimal Method(decimal inputTwo)
+        public decimal Method(decimal inputTwo)
         {
             decimal numTwo = 1.2345m;
             decimal calculationTwo = inputTwo + numTwo;
@@ -25,7 +25,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
         }
 
         //method overload #3
-        public static int Method(string inputThree)
+        public int Method(string inputThree)
         {
             int inputThreeConverted = Convert.ToInt32(inputThree);
             int numThree = 2;

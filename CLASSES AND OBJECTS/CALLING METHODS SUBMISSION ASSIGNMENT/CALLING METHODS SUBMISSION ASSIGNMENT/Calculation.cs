@@ -9,7 +9,7 @@ namespace CALLING_METHODS_SUBMISSION_ASSIGNMENT
     class Calculation
     {
         //creates method one
-        public static int MethodOne(int input)
+        public int MethodOne(int input)
         {
             int numOne = 5;
             int calculationOne = numOne * input;
@@ -17,7 +17,7 @@ namespace CALLING_METHODS_SUBMISSION_ASSIGNMENT
         }
 
         //creates method two
-        public static int MethodTwo(int input)
+        public int MethodTwo(int input)
         {
             int numTwo = 10;
             int calculationTwo = numTwo * input;
@@ -25,7 +25,7 @@ namespace CALLING_METHODS_SUBMISSION_ASSIGNMENT
         }
 
         //creates method three
-        public static int MethodThree(int input)
+        public int MethodThree(int input)
         {
             int numThree = 15;
             int calculationThree = numThree * input;

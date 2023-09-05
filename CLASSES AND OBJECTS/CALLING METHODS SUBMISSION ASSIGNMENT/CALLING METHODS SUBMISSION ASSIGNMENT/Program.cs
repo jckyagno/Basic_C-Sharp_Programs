@@ -10,15 +10,16 @@ namespace CALLING_METHODS_SUBMISSION_ASSIGNMENT
     {
         static void Main(string[] args)
         {
+            Calculation calculation = new Calculation();
 
             Console.WriteLine("Please enter a number:");
             //asks the user for input to multiply with
             int input = Convert.ToInt32(Console.ReadLine());
 
             //uses input and grabs each return and stores in answers
-            int answerOne = Calculation.MethodOne(input);
-            int answerTwo = Calculation.MethodTwo(input);
-            int answerThree = Calculation.MethodThree(input);
+            int answerOne = calculation.MethodOne(input);
+            int answerTwo = calculation.MethodTwo(input);
+            int answerThree = calculation.MethodThree(input);
 
             //displays answers to user
             Console.WriteLine(input + " times 5 is: " + answerOne);

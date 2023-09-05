@@ -10,11 +10,13 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
     {
         static void Main(string[] args)
         {
+            Calculation calculation = new Calculation();
+
             //method overload #1
             Console.WriteLine("Please input a number:");
             int inputOne = Convert.ToInt32(Console.ReadLine());
 
-            int answerOne = Calculation.Method(inputOne);
+            int answerOne = calculation.Method(inputOne);
             Console.WriteLine(inputOne + " + 1 = " + answerOne);
 
 
@@ -23,9 +25,8 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
             Console.WriteLine("Please input a number:");
             decimal inputTwo = Convert.ToDecimal(Console.ReadLine());
 
-            decimal answerTwo = Calculation.Method(inputTwo);
+            decimal answerTwo = calculation.Method(inputTwo);
             Console.WriteLine(inputTwo + " + 1.2345 = " + answerTwo);
-            Console.ReadLine();
 
 
 
@@ -33,7 +34,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
             Console.WriteLine("Please input a number:");
             string inputThree = Console.ReadLine();
 
-            int answerThree = Calculation.Method(inputThree);
+            int answerThree = calculation.Method(inputThree);
             Console.WriteLine(inputThree + " + 2 = " + answerThree);
             Console.ReadLine();
         }
