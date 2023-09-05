@@ -17,7 +17,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
             int inputOne = Convert.ToInt32(Console.ReadLine());
 
             int answerOne = calculation.Method(inputOne);
-            Console.WriteLine(inputOne + " + 1 = " + answerOne);
+            Console.WriteLine(inputOne + " + 1 = " + answerOne + "\n");
 
 
 
@@ -26,7 +26,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
             decimal inputTwo = Convert.ToDecimal(Console.ReadLine());
 
             decimal answerTwo = calculation.Method(inputTwo);
-            Console.WriteLine(inputTwo + " + 1.2345 = " + answerTwo);
+            Console.WriteLine(inputTwo + " + 1.2345 = " + answerTwo + "\n");
 
 
 
@@ -35,7 +35,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
             string inputThree = Console.ReadLine();
 
             int answerThree = calculation.Method(inputThree);
-            Console.WriteLine(inputThree + " + 2 = " + answerThree);
+            Console.WriteLine(inputThree + " + 2 = " + answerThree + "\n");
             Console.ReadLine();
         }
     }

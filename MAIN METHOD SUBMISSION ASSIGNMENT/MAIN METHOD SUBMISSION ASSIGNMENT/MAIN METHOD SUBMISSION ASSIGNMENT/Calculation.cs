@@ -20,7 +20,8 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
         public decimal Method(decimal inputTwo)
         {
             decimal numTwo = 1.2345m;
-            decimal calculationTwo = inputTwo + numTwo;
+            decimal calculationTwoA = inputTwo + numTwo;
+            int calculationTwo = Convert.ToInt32(calculationTwoA);
             return calculationTwo;
         }
 
