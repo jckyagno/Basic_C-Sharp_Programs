@@ -87,114 +87,85 @@ class Program
 
 
 
-        ////CONSOLE APP PART ONE ASSIGNMENT//
+        //CONSOLE APP PART ONE ASSIGNMENT//
+        Console.WriteLine("\nCONSOLE APP PART ONE ASSIGNMENT\n");
 
-        ////1. A one-dimensional array of strings.
+        //1. A one-dimensional array of strings.
 
-        ////created an array of strings named names, assigned aaron, bob, calvin as index 1, 2, 3 respectively
+        //created an array of strings named names, assigned aaron, bob, calvin as index 1, 2, 3 respectively
 
-        //string[] names = { "Aaron", "Bob", "Calvin" };
-
-
-
-        ////2. Ask the user to input some text.
-
-        ////console prompt to prompt user to type in a present-tense verb
-        //Console.WriteLine("Please type a single-word present-tense action. Ex: swims");
-
-        ////stores input as string action
-        //string action = Console.ReadLine();
+        string[] names = { "Aaron", "Bob", "Calvin" };
 
 
 
-        ////3. A loop that iterates through each string in the array
-        ////and adds the user's text input to the end of each string.
-        ////This step will not output anything to the console,
-        ////but will update each array element by appending the user's text.
+        //2. Ask the user to input some text.
 
-        ////first loop to concatenate user input action to end of each index
-        //for (int i = 0; i < names.Length; i++)
-        //{
-        //    names[i] = names[i] + " " + action + ".";
-        //} 
+        //console prompt to prompt user to type in a present-tense verb
+        Console.WriteLine("Please type a single-word present-tense action. Ex: swims");
+
+        //stores input as string action
+        string action = Console.ReadLine();
 
 
 
-        ////4. Then create a second loop that prints off each string in the
-        ////array one at a time.
+        //3. A loop that iterates through each string in the array
+        //and adds the user's text input to the end of each string.
+        //This step will not output anything to the console,
+        //but will update each array element by appending the user's text.
 
-        ////second loop  to print off each index to console
-        //for (int i = 0; i < names.Length; i++)
-        //{
-        //    Console.WriteLine(names[i]);
-        //} 
-        //Console.ReadLine();
+        //first loop to concatenate user input action to end of each index
+        for (int i = 0; i < names.Length; i++)
+        {
+            names[i] = names[i] + " " + action + ".";
+        }
 
 
 
+        //4. Then create a second loop that prints off each string in the
+        //array one at a time.
+
+        //second loop  to print off each index to console
+        for (int i = 0; i < names.Length; i++)
+        {
+            Console.WriteLine(names[i]);
+        }
+        Console.ReadLine();
 
 
 
 
 
 
-        ////CONSOLE APP PART TWO ASSIGNMENT//
 
 
 
-        ////1. An infinite loop.
-
-        ////commented out so infinite loop doesn't run
-
-        //    //initialize bool isRepeating so it can be used in the for loop
-        //    //bool isRepeating = true;
-        //    //i is set to never increment, therefore will always be less than length of names array
-        //    //for (int i = 0; isRepeating = i < names.Length; i = 0)
-        //    //{
-        //    //    Console.WriteLine(names[i]);
-        //    //}
-        //    //Console.ReadLine();
+        //CONSOLE APP PART TWO ASSIGNMENT//
+        Console.WriteLine("\nCONSOLE APP PART TWO ASSIGNMENT\n");
 
 
-        ////3. Fix the infinite loop so that it will execute properly.
+        //1. An infinite loop.
+
+        //commented out so infinite loop doesn't run
+
+        //initialize bool isRepeating so it can be used in the for loop
         //bool isRepeating = true;
-
-        ////changed i to increment after every iteration
-        //for (int i = 0; isRepeating = i < names.Length; i++)
+        //i is set to never increment, therefore will always be less than length of names array
+        //for (int i = 0; isRepeating = i < names.Length; i = 0)
         //{
         //    Console.WriteLine(names[i]);
         //}
         //Console.ReadLine();
 
 
+        //3. Fix the infinite loop so that it will execute properly.
+        bool isRepeating = true;
 
-
-
-
-
-
-
-        ////CONSOLE APP PART THREE ASSIGNMENT//
-
-
-
-        ////1. A loop where the comparison that’s used to determine whether
-        ////to continue iterating the loop is a “<” operator.
-        //for (int i = 0; i < names.Length; i++)
-        //{
-        //    names[i] = names[i] + " And again.";
-        //    Console.WriteLine(names[i]);
-        //}
-        //Console.ReadLine();
-
-        ////3. Add another loop where the comparison that’s used to determine
-        ////whether to continue iterating the loop is a “<=” operator.
-        //for (int i = 0; i <= 2; i++)
-        //{
-        //    names[i] = names[i] + " And AGAIN.";
-        //    Console.WriteLine(names[i]);
-        //}
-        //Console.ReadLine();
+        //changed i to increment after every iteration
+        for (int i = 0; isRepeating = i < names.Length; i++)
+        {
+            Console.WriteLine(names[i]);
+        }
+        Console.ReadLine();
 
 
 
@@ -204,57 +175,88 @@ class Program
 
 
 
-        ////CONSOLE APP PART FOUR ASSIGNMENT//
+        //CONSOLE APP PART THREE ASSIGNMENT//
+        Console.WriteLine("\nCONSOLE APP PART THREE ASSIGNMENT\n");
+
+
+        //1. A loop where the comparison that’s used to determine whether
+        //to continue iterating the loop is a “<” operator.
+        for (int i = 0; i < names.Length; i++)
+        {
+            names[i] = names[i] + " And again.";
+            Console.WriteLine(names[i]);
+        }
+        Console.ReadLine();
+
+        //3. Add another loop where the comparison that’s used to determine
+        //whether to continue iterating the loop is a “<=” operator.
+        for (int i = 0; i <= 2; i++)
+        {
+            names[i] = names[i] + " And AGAIN.";
+            Console.WriteLine(names[i]);
+        }
+        Console.ReadLine();
 
 
 
-        ////1. A list of strings where each item in the list is unique.
-        //List<string> cars = new List<string>() { "Ford", "Chevrolet", "Jeep", "GMC", "Buick", "Dodge", "RAM", "Cadillac", "Lincoln", "Chrysler", "Tesla", "Karma", "Lucid", "Faraday Future", "Brammo", "Rivian", "Lordstown", "Workhorse", "Canoo", "Drako Motors" };
 
 
 
-        ////2. Ask the user to input text to search for in the list.
-        //Console.WriteLine("Please type in an American car brand to search for in the database.");
-        //string userSearch = Console.ReadLine();
-        //Console.WriteLine("\nSearching for \"" + userSearch + "\" in database...\n.\n.\n.\n.\n.\n.\n.\n");
 
 
 
-        ////3. A loop that iterates through the list and then displays the
-        ////index of the list item that contains matching text on the screen.
-        //string message = "Your search term was not found in the database.";
-        //bool searchFound = false;
+        //CONSOLE APP PART FOUR ASSIGNMENT//
+        Console.WriteLine("\nCONSOLE APP PART FOUR ASSIGNMENT\n");
 
 
-        //do
-        //{
-        //    foreach (string car in cars)
-        //    {
-        //        if (car == userSearch)
-        //        {
-        //            message = "\nCar manufacturer \"" + car + "\" is in the database.\nIndex: " + cars.FindIndex(a => a.Contains(userSearch));
-        //            searchFound = true;
+        //1. A list of strings where each item in the list is unique.
+        List<string> cars = new List<string>() { "Ford", "Chevrolet", "Jeep", "GMC", "Buick", "Dodge", "RAM", "Cadillac", "Lincoln", "Chrysler", "Tesla", "Karma", "Lucid", "Faraday Future", "Brammo", "Rivian", "Lordstown", "Workhorse", "Canoo", "Drako Motors" };
 
-        ////5. Add code that stops the loop from executing once a match has been found.
-        //            break;
-        //        }
-        //    }
-        //    if (searchFound == true)
-        //    {
-        //        Console.WriteLine(message);
-        //    }
 
-        ////4. Add code to check if the user put in text that isn't on the list and, if they did, tell the user their input is not on the list. 
-        //    else
-        //    {
-        //        Console.WriteLine("\nYour search term \"" + userSearch + "\" was not found in the database.\nPlease type in an American car brand to search for in the database.");
-        //        userSearch = Console.ReadLine();
-        //        Console.WriteLine("\nSearching for \"" + userSearch + "\" in database...\n.\n.\n.\n.\n.\n.\n.\n");
-        //    }
-        //}
-        //while (!searchFound);
 
-        //Console.WriteLine("Thank you for using the American Car Manufacturer search program.");
+        //2. Ask the user to input text to search for in the list.
+        Console.WriteLine("Please type in an American car brand to search for in the database.");
+        string userSearch = Console.ReadLine();
+        Console.WriteLine("\nSearching for \"" + userSearch + "\" in database...\n.\n.\n.\n.\n.\n.\n.\n");
+
+
+
+        //3. A loop that iterates through the list and then displays the
+        //index of the list item that contains matching text on the screen.
+        string message = "Your search term was not found in the database.";
+        bool searchFound = false;
+
+
+        do
+        {
+            foreach (string car in cars)
+            {
+                if (car == userSearch)
+                {
+                    message = "\nCar manufacturer \"" + car + "\" is in the database.\nIndex: " + cars.FindIndex(a => a.Contains(userSearch));
+                    searchFound = true;
+
+                    //5. Add code that stops the loop from executing once a match has been found.
+                    break;
+                }
+            }
+            if (searchFound == true)
+            {
+                Console.WriteLine(message);
+            }
+
+            //4. Add code to check if the user put in text that isn't on the list and, if they did, tell the user their input is not on the list. 
+            else
+            {
+                Console.WriteLine("\nYour search term \"" + userSearch + "\" was not found in the database.\nPlease type in an American car brand to search for in the database.");
+                userSearch = Console.ReadLine();
+                Console.WriteLine("\nSearching for \"" + userSearch + "\" in database...\n.\n.\n.\n.\n.\n.\n.\n");
+            }
+        }
+        while (!searchFound);
+
+        Console.WriteLine("Thank you for using the American Car Manufacturer search program.");
+        Console.ReadLine();
 
 
 
@@ -268,22 +270,30 @@ class Program
 
 
         //CONSOLE APP PART FIVE ASSIGNMENT//
+        Console.WriteLine("\nCONSOLE APP PART FIVE ASSIGNMENT\n");
 
 
-
-        List<string> names = new List<string>() { "Jesse", "Erik", "Daniel", "Jesse" };
+        //1. A list of strings that has at least two identical strings in the list.
+        //Ask the user to select text to search for in the list.
+        List<string> peopleNames = new List<string>() { "Jesse", "Erik", "Daniel", "Jesse" };
         Console.WriteLine("\nType the name of a person to see if they are on the list:");
         string userSearch3 = Console.ReadLine();
 
 
-
-        for (int i = 0; i < names.Count; i++)
+        //2. Create a loop that iterates through the list and then displays the indices
+        //of the items matching the user-selected text. Ensure to remove any break
+        //statements that may prevent your code from returning multiple matches.
+        for (int i = 0; i < peopleNames.Count; i++)
         {
-            if (names[i] == userSearch3)
+            if (peopleNames[i] == userSearch3)
             {
-                Console.WriteLine(names[i] + " is at index value of: " + i);
+                Console.WriteLine(peopleNames[i] + " is at index value of: " + i);
             }
-            else if (!names.Contains(userSearch3))
+
+            //3. Add code to the loop to check if the user put in text that isn't on the list and,
+            //if they did, tells the user their input is not on the list.
+            //(You do not need to provide any additional chances for the user to enter text.)
+            else if (!peopleNames.Contains(userSearch3))
             {
                 Console.WriteLine("Could not find the name in database.");
                 break;
@@ -291,34 +301,37 @@ class Program
         }
 
         Console.ReadLine();
-        Console.WriteLine("Completion");
-
-
-        //List<int> scores = new List<int>() { 86, 98, 12, 74, 98, 98, 99 };
-
-        //Console.WriteLine("\nPlease input a number to search for in the database:");
-        //string input = Console.ReadLine();
-        //int userSearch2 = Convert.ToInt32(input);
-
-        //foreach (int score in scores)
-        //{
-        //    if (score == userSearch2)
-        //    {
-        //        Console.WriteLine("Index: {0}", scores.IndexOf(userSearch2));
-        //    }
-        //}
-        //Console.ReadLine();
-
-        //for (int i = 0; i < scores.Count; i++);
-        //{
-        //    if (scores[i] == userSearch2)
-        //    {
-        //        Console.WriteLine("Index: {0}", scores.IndexOf(userSearch2));
-        //    }
-        //}
-        //Console.ReadLine();
 
 
 
+
+
+
+
+
+
+
+        //CONSOLE APP PART SIX ASSIGNMENT//
+        Console.WriteLine("\nCONSOLE APP PART SIX ASSIGNMENT\n");
+
+        //1. Create a list of strings that has at least two identical strings in the list.
+        List<string> letters = new List<string>() { "A", "B", "C", "D", "E", "D" };
+        List<string> duplicates = new List<string>();
+
+        //2. Create a foreach loop that evaluates each item in the list,
+        //and displays a message showing the string and whether or not it has already appeared in the list.
+        foreach (string letter in letters)
+        {
+            if (!duplicates.Contains(letter))
+            {
+                duplicates.Add(letter);
+                Console.WriteLine(letter + " - this item is unique");
+            }
+            else
+            {
+                Console.WriteLine(letter + " - this item is a duplicate");
+            }
+        }
+        Console.ReadLine();
     }
 }
