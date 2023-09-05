@@ -1,0 +1,7 @@
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb

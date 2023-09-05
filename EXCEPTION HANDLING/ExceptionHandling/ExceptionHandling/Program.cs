@@ -48,7 +48,7 @@ class Program
             {
 
                 int quotient = number / divNum;
-                Console.WriteLine(divNum + " divided by " + number + " is: " + quotient);
+                Console.WriteLine(number + " divided by " + divNum + " is: " + quotient);
             }
         }
         catch (FormatException ex)
