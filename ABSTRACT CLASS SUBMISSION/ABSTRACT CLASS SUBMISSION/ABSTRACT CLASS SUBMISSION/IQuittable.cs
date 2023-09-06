@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ABSTRACT_CLASS_SUBMISSION
 {
-    public abstract class Person
+    interface IQuittable
     {
-        //instantiates two properties
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        void Quit();
     }
 }

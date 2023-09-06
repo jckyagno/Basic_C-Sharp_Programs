@@ -14,6 +14,17 @@ namespace ABSTRACT_CLASS_SUBMISSION
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             //executes SayName() from Employee
             employee.SayName();
+
+            void Quit()
+            {
+                Console.WriteLine("I quit.");
+            }
+
+            //uses polymorphism to create an object
+            IQuittable quittable = new Employee();
+            //calls Quit() from IQuittable
+            quittable.Quit();
+
             Console.ReadLine();
         }
     }
