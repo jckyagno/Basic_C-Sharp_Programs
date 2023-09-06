@@ -25,7 +25,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
             Console.WriteLine("Please input a number:");
             decimal inputTwo = Convert.ToDecimal(Console.ReadLine());
 
-            decimal answerTwo = calculation.Method(inputTwo);
+            int answerTwo = calculation.Method(inputTwo);
             Console.WriteLine(inputTwo + " + 1.2345 = " + answerTwo + "\n");
 
 

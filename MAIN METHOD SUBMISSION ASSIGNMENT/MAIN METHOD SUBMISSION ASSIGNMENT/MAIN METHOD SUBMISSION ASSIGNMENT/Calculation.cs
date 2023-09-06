@@ -17,7 +17,7 @@ namespace MAIN_METHOD_SUBMISSION_ASSIGNMENT
         }
 
         //method overload #2
-        public decimal Method(decimal inputTwo)
+        public int Method(decimal inputTwo)
         {
             decimal numTwo = 1.2345m;
             decimal calculationTwoA = inputTwo + numTwo;
