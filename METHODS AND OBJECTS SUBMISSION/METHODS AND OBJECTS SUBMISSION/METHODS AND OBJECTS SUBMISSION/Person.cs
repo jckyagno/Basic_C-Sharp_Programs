@@ -13,7 +13,7 @@ namespace METHODS_AND_OBJECTS_SUBMISSION
 
         public void SayName()
         {
-            Console.WriteLine(FirstName + " " + LastName);
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
     }
 }

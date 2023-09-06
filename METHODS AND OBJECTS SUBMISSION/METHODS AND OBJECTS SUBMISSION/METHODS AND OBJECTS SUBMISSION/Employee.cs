@@ -8,6 +8,9 @@ namespace METHODS_AND_OBJECTS_SUBMISSION
 {
     class Employee : Person
     {
+        //instantiates id property
+        public int Id { get; set; }
+
 
     }
 }
