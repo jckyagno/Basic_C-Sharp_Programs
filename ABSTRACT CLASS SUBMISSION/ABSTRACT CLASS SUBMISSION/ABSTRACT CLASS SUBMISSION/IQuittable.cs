@@ -8,6 +8,7 @@ namespace ABSTRACT_CLASS_SUBMISSION
 {
     interface IQuittable
     {
+        //defines void method Quit()
         void Quit();
     }
 }

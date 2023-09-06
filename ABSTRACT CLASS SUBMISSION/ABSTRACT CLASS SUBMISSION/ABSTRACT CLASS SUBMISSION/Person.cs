@@ -12,9 +12,8 @@ namespace ABSTRACT_CLASS_SUBMISSION
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public virtual void SayName()
-        {
-            Console.WriteLine("Name: " + FirstName + " " + LastName);
-        }
+        //gives method SayName
+        public abstract void SayName();
+
     }
 }
