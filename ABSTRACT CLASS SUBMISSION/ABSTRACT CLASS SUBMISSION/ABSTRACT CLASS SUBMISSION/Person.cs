@@ -11,5 +11,10 @@ namespace ABSTRACT_CLASS_SUBMISSION
         //instantiates two properties
         public string FirstName { get; set; }
         public string LastName { get; set; }
+
+        public virtual void SayName()
+        {
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
+        }
     }
 }

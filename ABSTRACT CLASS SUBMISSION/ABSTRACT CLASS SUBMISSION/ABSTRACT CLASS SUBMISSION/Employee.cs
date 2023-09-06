@@ -10,10 +10,7 @@ namespace ABSTRACT_CLASS_SUBMISSION
     public class Employee : Person, IQuittable
     {
         //method SayName is based in Employee class
-        public virtual void SayName()
-        {
-            Console.WriteLine("Name: " + FirstName + " " + LastName);
-        }
+
         public void Quit()
         {
             Console.WriteLine("I quit.");

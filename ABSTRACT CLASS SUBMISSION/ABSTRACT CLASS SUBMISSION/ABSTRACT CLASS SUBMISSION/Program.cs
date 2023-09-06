@@ -15,10 +15,7 @@ namespace ABSTRACT_CLASS_SUBMISSION
             //executes SayName() from Employee
             employee.SayName();
 
-            void Quit()
-            {
-                Console.WriteLine("I quit.");
-            }
+
 
             //uses polymorphism to create an object
             IQuittable quittable = new Employee();
