@@ -1,0 +1,7 @@
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\bin\Debug\PARAMETERS.exe.config
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\bin\Debug\PARAMETERS.exe
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\bin\Debug\PARAMETERS.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\obj\Debug\PARAMETERS.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\obj\Debug\PARAMETERS.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\obj\Debug\PARAMETERS.exe
+D:\Visual Studio Projects\Basic_C-_Programs\PARAMETERS\PARAMETERS\PARAMETERS\obj\Debug\PARAMETERS.pdb
