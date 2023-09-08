@@ -1,0 +1,7 @@
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\bin\Debug\STRUCT.exe.config
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\bin\Debug\STRUCT.exe
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\bin\Debug\STRUCT.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\obj\Debug\STRUCT.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\obj\Debug\STRUCT.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\obj\Debug\STRUCT.exe
+D:\Visual Studio Projects\Basic_C-_Programs\STRUCT\STRUCT\STRUCT\obj\Debug\STRUCT.pdb
