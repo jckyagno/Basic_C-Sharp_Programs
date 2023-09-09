@@ -25,7 +25,8 @@ namespace LAMBDA_SUBMISSION
             employeeList.Add(new Employee() { Id = 10, FirstName = "Joe", LastName = "Joeson" });
 
             //instantiated joe list
-            List<Joe> joeList = new List<Joe>();
+            List<Employee> joeList = new List<Employee>();
+            List<Employee> greaterThanFiveList = new List<Employee>();
 
 
 
@@ -37,12 +38,12 @@ namespace LAMBDA_SUBMISSION
             {
                 if (employee.FirstName == "Joe")
                 {
-                    joeList.Add(new Joe() { Id = employee.Id, FirstName = employee.FirstName, LastName = employee.LastName });
+                    joeList.Add(new Employee() { Id = employee.Id, FirstName = employee.FirstName, LastName = employee.LastName });
                 }
             }
 
             //foreach loop to print out joe list
-            foreach (Joe joe in joeList)
+            foreach (Employee joe in joeList)
             {
                 Console.WriteLine("\nID#\t\t:\t" + joe.Id + "\nFirst Name\t:\t" + joe.FirstName + "\nLast Name\t:\t" + joe.LastName);
             }
@@ -53,13 +54,26 @@ namespace LAMBDA_SUBMISSION
             Console.WriteLine("\n\n\n4. Perform the same action again, but this time with a lambda expression.");
 
             //lambda to show all indices with first name joe
-            employeeList = employeeList.Where(x => x.FirstName == "Joe").ToList();
+            joeList = employeeList.Where(x => x.FirstName == "Joe").ToList();
 
             //foreach loop to print out results of lambda
-            foreach (Employee employee in employeeList)
+            foreach (Employee joe in joeList)
             {
-                Console.WriteLine("\nID#\t\t:\t" + employee.Id + "\nFirst Name\t:\t" + employee.FirstName + "\nLast Name\t:\t" + employee.LastName);
+                Console.WriteLine("\nID#\t\t:\t" + joe.Id + "\nFirst Name\t:\t" + joe.FirstName + "\nLast Name\t:\t" + joe.LastName);
             }
+
+
+
+            //STEP 5//
+            Console.WriteLine("\n\n\n5. Using a lambda expression, make a list of all employees with an Id number greater than 5.");
+
+            //lambd to show all indices with Id greater than 5
+            greaterThanFiveList = employeeList.Where(x => x.Id > 5).ToList();
+            foreach (Employee greaterThenFive in greaterThanFiveList)
+            {
+                Console.WriteLine("\nID#\t\t:\t" + greaterThenFive.Id + "\nFirst Name\t:\t" + greaterThenFive.FirstName + "\nLast Name\t:\t" + greaterThenFive.LastName);
+            }
+
 
             Console.ReadLine();
         }
