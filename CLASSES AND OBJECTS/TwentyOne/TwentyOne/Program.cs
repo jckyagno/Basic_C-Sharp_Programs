@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -10,6 +11,9 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            string text = File.ReadAllText(@"D:\Visual Studio Projects\Logs\log.txt");
+            Console.WriteLine(text);
+
             //greeting to the player
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
@@ -21,6 +25,7 @@ namespace TwentyOne
             //if yes, set up twentyone game
             Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
             string answer = Console.ReadLine().ToLower();
+
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 //instantiates an object using the constructor in Player.cs
@@ -35,7 +40,11 @@ namespace TwentyOne
                 {
                     game.Play();
                 }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
             }
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
+            Console.ReadLine();
         }
     }
 }
