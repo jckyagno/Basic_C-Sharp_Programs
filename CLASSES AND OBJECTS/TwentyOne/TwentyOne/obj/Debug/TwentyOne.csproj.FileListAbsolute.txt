@@ -5,3 +5,6 @@ D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\Twenty
 D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
 D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
 D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\bin\Debug\Casino.dll
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\bin\Debug\Casino.pdb
+D:\Visual Studio Projects\Basic_C-_Programs\CLASSES AND OBJECTS\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CopyComplete

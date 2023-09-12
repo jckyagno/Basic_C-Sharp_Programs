@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
-namespace TwentyOne
+namespace Casino
 {
     class Program
     {
         static void Main(string[] args)
         {
-            DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
-            DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 34, 22);
+            const string casinoName = "Grand Hotel and Casino";
 
-            TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
-
+            Guid identifier = Guid.NewGuid();
 
             //greeting to the player
-            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
+            Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
 
             //asks player to input how amount of money they have
@@ -33,6 +33,12 @@ namespace TwentyOne
             {
                 //instantiates an object using the constructor in Player.cs
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"D:\Visual Studio Projects\Logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
+
                 //instantiates game using TwentyOneGame.cs
                 Game game = new TwentyOneGame();
                 //adds player
