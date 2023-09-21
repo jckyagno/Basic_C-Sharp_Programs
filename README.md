@@ -3,7 +3,7 @@
 
 ---
 
-[Car Insurance Project](https://jckyagno.github.io/Basic_HTML_and_CSS/](https://github.com/jckyagno/Basic_C-Sharp_Programs/tree/main/CarInsurance/CarInsurance)
+[Car Insurance Project](https://github.com/jckyagno/Basic_C-Sharp_Programs/tree/main/CarInsurance/CarInsurance)
 
 This project is a Model-View-Controller application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. There is also an admin page that allows staff to view all quotes that have been issued.
 
